@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/d4eabe43-df8d-461f-8b99-c963de54df6e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 47e3d5f7-6841-4edb-b57f-89b2d00e91c7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 47e3d5f7-6841-4edb-b57f-89b2d00e91c7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 1fd132cb-656e-4dca-b862-f5141d363877
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/1fd132cb-656e-4dca-b862-f5141d363877>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 3975da11-86d2-4c4f-9248-b4f54bde22c2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    consoleUI: false
+    courtRoot: false
+    danceRoot: false
+    park: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - park: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      consoleUI: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      courtRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      danceRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType_1 park
+    - // @input AssignableType_2 consoleUI
+    - // @input SceneObject courtRoot
+    - // @input SceneObject danceRoot

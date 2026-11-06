@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/0a2c168f-d7ec-4bf7-82a7-0ddb5292ddfa>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e860935f-9358-4ea1-ae3f-58bb8b64fc05
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e860935f-9358-4ea1-ae3f-58bb8b64fc05
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 58433088-1ab1-4eed-869f-b97f3fff0215
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/58433088-1ab1-4eed-869f-b97f3fff0215>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: f36fa893-551a-454f-8522-d83a00097656
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    accent: false
+    panelWidth: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelWidth: !<float> 42.000000
+      accent: !<Vec4> {x: 0.650000, y: 1.000000, z: 0.300000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input float panelWidth = 42
+    - '// @input vec4 accent = {0.65,1,0.3,1} {"widget":"color"}'

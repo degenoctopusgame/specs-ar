@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/1bb1ad0f-8fe1-4eb4-971e-01edbc9fe665>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 597a18cf-1a3d-4fa3-b550-bc3c573b96d4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 597a18cf-1a3d-4fa3-b550-bc3c573b96d4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 780f5e5b-1ba7-4330-a7c5-b286ef7e79cd
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/780f5e5b-1ba7-4330-a7c5-b286ef7e79cd>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: bf5a1a3f-3166-45f9-a07e-2d7f7cb6bd3b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cameraObject: false
+    course: false
+    courseRoot: false
+    eyeHeightCm: false
+    relaxedCueSeconds: false
+    soundVolume: false
+    ui: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      courseRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ui: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      course: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      eyeHeightCm: !<float> 170.000000
+      relaxedCueSeconds: !<float> 8.000000
+      soundVolume: 0.250000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject cameraObject
+    - // @input SceneObject courseRoot
+    - // @input AssignableType_1 ui
+    - // @input AssignableType_2 course
+    - '// @input float eyeHeightCm = 170 {"hint":"Manual eye-to-ground height in cm.", "widget":"slider", "min":120, "max":210, "step":5}'
+    - '// @input float relaxedCueSeconds = 8 {"hint":"Time in seconds for a Relaxed note to travel the runway.", "widget":"slider", "min":4, "max":10, "step":1}'
+    - '// @input float soundVolume = 0.25 {"widget":"slider", "min":0, "max":1, "step":0.05}'

@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/0165d46d-a519-4799-b9de-55f327fc835f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c0b71fec-f602-45a2-a026-c3788ce7676a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c0b71fec-f602-45a2-a026-c3788ce7676a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2b5cbf2b-444f-4e22-8ba4-661999a962d7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2b5cbf2b-444f-4e22-8ba4-661999a962d7>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: cbd65e1f-0747-4dbf-9580-a50505b4ebdd
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    activeColor: false
+    idleColor: false
+    markers: false
+    material: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - markers: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      activeColor: !<Vec4> {x: 0.650000, y: 1.000000, z: 0.150000, w: 1.000000}
+      idleColor: !<Vec4> {x: 0.100000, y: 0.650000, z: 0.700000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject markers
+    - // @input Asset.Material material
+    - '// @input vec4 activeColor = {0.65,1,0.15,1} {"widget":"color"}'
+    - '// @input vec4 idleColor = {0.1,0.65,0.7,1} {"widget":"color"}'
